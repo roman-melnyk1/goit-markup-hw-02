@@ -12,3 +12,43 @@ a {
 button {
     cursor: pointer;
 }
+
+body {
+    background-color: #ffffff;
+}
+
+/* Header Styles */
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.web {
+    color: #4d5ae5;
+}
+
+.menu {
+    width: 261px;
+    height: 24px;
+}
+
+.menu-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
