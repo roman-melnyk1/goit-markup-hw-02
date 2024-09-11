@@ -26,7 +26,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -36,7 +36,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -51,8 +51,9 @@ body {
     color: #2e2f42;
 }
 
-.menu-item:hover,
-.menu-item:focus {
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
 
     font-weight: 500;
     font-size: 16px;
@@ -144,6 +145,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .team-items {
@@ -176,6 +178,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .inventions-name {
@@ -183,6 +186,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .inventions-work {
@@ -218,5 +222,11 @@ body {
 }
 
 .studio-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
 }
