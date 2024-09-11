@@ -16,7 +16,7 @@ button {
 body {
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
 }
 
 
@@ -29,10 +29,17 @@ body {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.web {
-    color: #4d5ae5;
+.studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
 .menu-item {
@@ -52,6 +59,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
+}
+
+.contact-info-addres {
+    font-style: normal;
 }
 
 .contact-info-item {
@@ -79,7 +90,7 @@ body {
 
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
@@ -96,8 +107,8 @@ body {
 }
 
 .order-button:hover,
-.order-button:active {
-    background: #404bbf;
+.order-button:focus {
+    background-color: #404BBF;
 }
 
 .hero-back {
@@ -118,15 +129,25 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-transform: capitalize;
 }
 
 /* team */
+
+.team-section {
+    background-color: #f4f4fd;
+}
+
 .team-headder {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+}
+
+.team-items {
+    background-color: #FFFFFF;
 }
 
 .team-names {
@@ -151,9 +172,10 @@ body {
 .portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .inventions-name {
@@ -189,8 +211,12 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.studio-footer {
     color: #f4f4fd;
 }
